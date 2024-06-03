@@ -24,7 +24,7 @@ namespace verificadorConta
 
             primeiro = soma / 1000;//separa o primeiro digito 
             segundo = (soma / 100) % 10;//separa em centena e clacula o resto, resultando no terciero digito 
-            terceiro = (soma / 10) % 10;//separa em dezena e clacula o resto, resultando no terciero digito
+            terceiro = (soma / 10) % 10;//separa em dezena e clacula o resto, resultando no quarto digito
             quarto = soma % 10;//separa o último digito
 
             mult = (primeiro * 1) + (segundo * 2) + (terceiro * 3) + (quarto * 4);//multiplica o digito pela sua ordem posicional e faz a soma dos 3 digitos
